@@ -7,7 +7,7 @@ public class CommandeClear extends CommandeDocument {
     }
 
     public void executer() {
-        this.document.setTexte(" a");
+        this.document.setTexte("");
         super.executer();
     }
 
